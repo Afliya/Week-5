@@ -1,0 +1,355 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', Times, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 15px;
+    font: 500 normal 15px/18px 'Inter', Times, sans-serif;
+    text-decoration: none;
+    color: #5A5A5A;
+}
+
+.phone {
+    display: flex;
+    width: 560px;
+    justify-content: end;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 15px;
+    color: #2F80ED;
+    font: normal 600 15px/18px 'Inter', Times, sans-serif;
+}
+
+.background {
+    background-image: url("/Assets/header.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 1160px;
+    height: 80%;
+    padding: 40px;
+    margin: 15px;
+    border-radius: 9px;
+    color: #D9D9D9;
+}
+
+.aparthotel {
+    font: normal 400 33px/110% 'Inter', Times, sans-serif;
+}
+
+.skyplazayalta {
+    font: normal 500 59px/20% 'Inter', Times, sans-serif;
+}
+
+.address {
+    font: normal 400 14px/45px 'Inter', Times, sans-serif;
+}
+
+.button {
+    position: absolute;
+    cursor: pointer;
+    width: 400px;
+    height: 70px;
+    left: 890px;
+    top: 515px;
+    background: #2F80ED;
+    border-radius: 9px;
+    padding: 0px;
+    border: 1px solid #2F80ED;
+    color: white;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.article1 {
+    display: flex;
+    height: 750px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    width: 55%;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+}
+
+.image1 {
+    width: 100%;
+    height: 50%;
+}
+
+.image2 {
+    width: 100%;
+    height: 40%;
+}
+
+.image3 {
+    width: 100%;
+    height: 55%;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.roomsheading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+.roomssection {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.roomdescription {
+    box-sizing: border-box;
+    width: 23%;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+}
+
+.image4 {
+    width: 100%;
+    border-radius: 11px;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    color: #2D9CDB;
+}
+
+.article3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.hotellocation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotelimages1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.image5 {
+    width: 66%;
+}
+
+.image8 {
+    width: 66%;
+}
+
+.hotelimages2 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.button2 {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    background-color: #2F80ED;
+    border-radius: 9px;
+    border: 1px solid #2F80ED;
+    
+}
+
+#more_images {
+    background-color: #2F80ED;
+    color: white;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.article4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.how_to_rest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+}
+
+.photo4 {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 35%;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+}
+
+.image9 {
+    width: 100%;
+}
+
+.footersection1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 12.4444px 53.3333px rgba(0, 0, 0, 0.07);
+    border-radius: 9px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.phone2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2F80ED;
+}
+
+.footersection2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.menu4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 10px;
+    font: 500 normal 15px/18px 'Inter', Times, sans-serif;
+    text-decoration: none;
+    color: #5A5A5A;
+}
+
+.confidentiality {
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 75%;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.phone:hover {
+    text-decoration: underline;
+}
+
+.phone2:hover {
+    color: aqua;
+    text-decoration: dashed;
+}
+
+.button:active {
+    transform: translateY(4px);
+}
+
+.button2:active {
+    transform: translateY(4px);
+}
